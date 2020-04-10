@@ -81,8 +81,8 @@ public class Author {
 
   @Override
   public String toString() {
-    return "{" + " id='" + getId() + "'" + ", firstName='" + getFirstName() + "'" + ", lastName='" + getLastName() + "'"
-        + ", books='" + getBooks() + "'" + "}";
+    return "{" + " id='" + getId() + "'" + ", firstName='" + getFirstName() + "'" + ", lastName='" + getLastName()
+        + "'}";
   }
 
 }

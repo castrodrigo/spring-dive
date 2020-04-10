@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" xmnls:th="http://www.thymeleaf.org">
+    <title>Spring Dive</title>
+  </head>
+  <body>
+    <h1>Books List</h1>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Publisher</th>
+      </tr>
+      <tr th:each="book: ${books}">
+        <td th:text="${book.id}"></td>
+        <td th:text="${book.title}"></td>
+        <td th:text="${book.publisher.name}"></td>
+      </tr>
+    </table>
+  </body>
+</html>

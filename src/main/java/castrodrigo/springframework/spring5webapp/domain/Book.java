@@ -98,7 +98,7 @@ public class Book {
   @Override
   public String toString() {
     return "{" + " id='" + getId() + "'" + ", title='" + getTitle() + "'" + ", isbn='" + getIsbn() + "'"
-        + ", publisher='" + getPublisher() + "'" + ", authors='" + getAuthors() + "'" + "}";
+        + ", publisher='" + getPublisher() + "'}";
   }
 
 }
